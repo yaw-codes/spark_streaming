@@ -1,0 +1,13 @@
+{
+    "schemaName": "account_dim",
+    "dimensionFieldSpecs": [
+        { "name": "account_id", "dataType": "STRING" },
+        { "name": "account_type", "dataType": "STRING" },
+        { "name": "customer_id", "dataType": "STRING" },
+        { "name": "opening_date", "dataType": "LONG" }, 
+        { "name": "status", "dataType": "STRING" }
+    ],
+    "metricFieldSpecs": [
+        { "name": "balance", "dataType": "DOUBLE" }
+    ]
+}
